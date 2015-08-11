@@ -21,7 +21,7 @@ class User{
         // The arguments are:
         // $cand_un: The desired username for the user
         // $cand_pw: The MD5 hash of the desired password for the user.
-        // $rn: The real name of the user
+        // $cand_rn: The real name of the user
 
         global $database;
         if ($cand_un != "") {
